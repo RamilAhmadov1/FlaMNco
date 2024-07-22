@@ -1,0 +1,34 @@
+/* Ensure the navbar and .inner container are styled accordingly */
+.navbar {
+    /* Add styles for the navbar if necessary */
+    position: relative;
+    z-index: 15 ; /* Ensure it stays above other content */
+}
+
+.inner {
+    margin: 0 var(--gap-sm); /* Adjust margins for space on the sides */
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 2 * var(--gap-sm)); /* Adjust width to include margins */
+    max-width: 1650px; /* Set a max-width to make it skinnier */
+    position: relative; /* Ensure it's positioned correctly */
+    top: 0; /* Align to the top of the page */
+    /* You can use negative margins if needed to adjust positioning */
+}
+
+@media (min-width: 1700px) {
+    .inner {
+        width: 2000px; /* Keep it skinny on larger screens as well */
+    }
+}
+
+.inner .logo {
+    max-width: 160px;
+    margin-top: 25px; /* Adjust the top margin to move it down */
+    margin-left: 170px; /* Adjust the left margin to move it to the right */
+}
+
+.logo img {
+    width: 100%;
+    object-fit: cover;
+}

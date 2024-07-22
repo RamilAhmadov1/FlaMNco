@@ -1,0 +1,41 @@
+<div class="shop-page">
+    <form class="search" (submit)="productService.search(searchInput)">
+        <div class="flex direction-column align-center">
+            <h1>Tell us what you’re looking for today!</h1>
+            <div class="flex mt-xs">
+                <input class="px-xs" placeholder="Guitar" [(ngModel)]="searchInput"
+                    name="search" />
+                <button class="px-xs py-xxs border small" type="submit">Search</button>
+            </div>
+        </div>
+    </form>
+    <div class="flex justify-center">
+        <div class="categories-menu mt-md">
+            <!--    <h2 class="font-bold text-center">Shop by Category</h2>-->
+            <div class="grid mt-xs">
+                <button class="border bg-white rounded clickable bg-hover py-xxs"
+                    [ngClass]="{ 'active' : filter.name === productService.activeFilter }"
+                    *ngFor="let filter of filters" (click)="filterProducts(filter.name)">{{ filter.label }}
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <div class="grid mt-md">
+            <div class="item" *ngFor="let product of productService.filteredProducts">
+                <img [src]="product && product.product_img_url" alt="">
+                <p class="font-bold mt-xxs">{{ product.product_name }}</p>
+                <p class="font-light mt-xxs">{{ product.product_manufacturer }}</p>
+                <p class="text-highlight mt-xxs">${{ product.product_price }}</p>
+                <div class="flex justify-between">
+                    <button class="mt-xs bg-white border py-xxs px-xs rounded clickable mx-xxs bg-hover"
+                        [routerLink]="['/product', product.product_id]">View Details</button>
+                    <button
+                        class="mt-xs bg-primary text-white py-xxs px-xs rounded clickable mx-xxs bg-hover text-dark-hover"
+                        (click)="checkoutService.addToCart(product)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
