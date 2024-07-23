@@ -1,3 +1,4 @@
+/* General Component Styles */
 img {
     max-width: 220px;
     max-height: 180px;
@@ -55,13 +56,18 @@ img {
     font-size: 16px;
 }
 
+/* Media Queries for Smaller Screens */
 @media (max-width: 767px) {
     .search input {
         width: calc(100% - 70px);
+        font-size: 14px;
+        height: 35px;
     }
 
     .search button {
         min-width: 70px;
+        font-size: 13px;
+        height: 35px;
     }
 
     .categories-menu>div {
@@ -72,15 +78,37 @@ img {
         max-width: 100%;
         min-height: 40px;
         font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    h1 {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 15px;
     }
 }
 
+/* Media Queries for Mid-sized Screens */
 @media (min-width: 500px) {
     .search input {
         width: calc(100% - 100px);
+        font-size: 15px;
+        height: 40px;
+    }
+
+    .search button {
+        min-width: 100px;
+        font-size: 14px;
+        height: 40px;
     }
 
     .categories-menu>div {
         grid-template-columns: repeat(6, 1fr);
+    }
+
+    h1 {
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
