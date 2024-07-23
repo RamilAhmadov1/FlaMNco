@@ -2,69 +2,50 @@ img {
     max-width: 220px;
     max-height: 180px;
     object-fit: cover;
-    /* Ensures images cover the area without distortion */
 }
 
 .search {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    /* Center the search bar */
     margin-bottom: 20px;
-    /* Add space below the search bar */
     padding: 0 15px;
-    /* Add horizontal padding */
     box-sizing: border-box;
-    /* Ensure padding and border are included in the element's total width */
 }
 
 .search input {
     width: calc(100% - 100px);
-    /* Adjust the width of the input */
     border-top-left-radius: var(--border-radius);
     border-bottom-left-radius: var(--border-radius);
     border: var(--border-hover);
     height: 40px;
-    /* Set a fixed height for the input */
 }
 
 .search button {
     border-top-right-radius: var(--border-radius);
     border-bottom-right-radius: var(--border-radius);
     min-width: 120px;
-    /* Adjust as needed */
     height: 40px;
-    /* Match the height of the input */
     padding: 10px 10px;
-    /* Add padding only for horizontal spacing */
     font-size: 15px;
-    /* Ensure font size is consistent */
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    /* Center text inside the button */
 }
 
 .categories-menu {
     width: 100%;
     max-width: 1000px;
-    /* Adjust or remove to fit your layout */
     margin: 0 auto;
-    /* Center the categories menu */
     margin-top: 20px;
-    /* Add space above the categories menu */
     padding: 0 15px;
-    /* Add horizontal padding */
     box-sizing: border-box;
-    /* Ensure padding and border are included in the element's total width */
 }
 
 .categories-menu>div {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    /* Default to 7 columns */
     gap: 15px;
-    /* Consistent gap between grid items */
 }
 
 .categories-menu button {
@@ -74,14 +55,32 @@ img {
     font-size: 16px;
 }
 
+@media (max-width: 767px) {
+    .search input {
+        width: calc(100% - 70px);
+    }
+
+    .search button {
+        min-width: 70px;
+    }
+
+    .categories-menu>div {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .categories-menu button {
+        max-width: 100%;
+        min-height: 40px;
+        font-size: 14px;
+    }
+}
+
 @media (min-width: 500px) {
     .search input {
         width: calc(100% - 100px);
-        /* Adjust for larger screens */
     }
 
     .categories-menu>div {
         grid-template-columns: repeat(6, 1fr);
-        /* Change to 6 columns for larger screens */
     }
 }
