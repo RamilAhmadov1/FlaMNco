@@ -73,7 +73,7 @@
       "product_name": "Ocean Wave Electric Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 859.99,
-      "product_img_url": "../assets/guitar/e2.png",
+      "product_img_url": "assets/guitar/e2.png",
       "category": "Electric Guitar",
       "product_description": "A guitar with an ocean wave design, delivering clear and resonant tones with a stylish appearance."
     },
@@ -82,7 +82,7 @@
       "product_name": "Alto Saxophone",
       "product_manufacturer": "Sax Masters",
       "product_price": 1099.99,
-      "product_img_url": "../assets/others/saxophone.png",
+      "product_img_url": "assets/others/saxophone.png",
       "category": "Saxophone",
       "product_description": "An alto saxophone known for its rich sound and excellent intonation, perfect for jazz and classical music."
     },
@@ -92,7 +92,7 @@
       "product_name": "Mountain Air Acoustic Guitar",
       "product_manufacturer": "Nature Sound",
       "product_price": 529.99,
-      "product_img_url": "../assets/guitar/a2.jpg",
+      "product_img_url": "assets/guitar/a2.jpg",
       "category": "Acoustic Guitar",
       "product_description": "An acoustic guitar with a mountain air theme, offering a crisp and clear sound with a comfortable playability."
     },
@@ -101,7 +101,7 @@
       "product_name": "Stormcaster Electric Guitar",
       "product_manufacturer": "Thunderstruck Instruments",
       "product_price": 799.99,
-      "product_img_url": "../assets/guitar/e11.png",
+      "product_img_url": "assets/guitar/e11.png",
       "category": "Electric Guitar",
       "product_description": "Designed to withstand the storm of heavy riffs, this electric guitar offers powerful sound and durability."
     },
@@ -110,7 +110,7 @@
       "product_name": "Sunset Flame Acoustic Guitar",
       "product_manufacturer": "Melody Craft",
       "product_price": 499.99,
-      "product_img_url": "../assets/guitar/a1.png",
+      "product_img_url": "assets/guitar/a1.png",
       "category": "Acoustic Guitar",
       "product_description": "Features a sunset flame finish and delivers a warm, rich tone ideal for singer-songwriters and solo performers."
     },
@@ -119,7 +119,7 @@
       "product_name": "Grand Piano",
       "product_manufacturer": "Elegant Keys",
       "product_price": 9999.99,
-      "product_img_url": "../assets/others/piano.png",
+      "product_img_url": "assets/others/piano.png",
       "category": "Piano",
       "product_description": "A luxurious grand piano with exceptional sound quality and craftsmanship, perfect for professional performances."
     },
@@ -128,7 +128,7 @@
       "product_name": "Silver Bugle",
       "product_manufacturer": "Harmony Brass",
       "product_price": 449.99,
-      "product_img_url": "../assets/others/bugle2.png",
+      "product_img_url": "assets/others/bugle2.png",
       "category": "Bugle",
       "product_description": "A silver bugle with a bright, penetrating sound, perfect for marching bands and ceremonial events."
     },
@@ -138,7 +138,7 @@
       "product_name": "Ruby Accordion",
       "product_manufacturer": "Harmony Squeeze",
       "product_price": 1599.99,
-      "product_img_url": "../assets/others/accordion2.png",
+      "product_img_url": "assets/others/accordion2.png",
       "category": "Accordion",
       "product_description": "A luxurious ruby red accordion with a full range of tones and exceptional playability for advanced musicians."
     },
@@ -147,7 +147,7 @@
       "product_name": "Steel Surge Bass Guitar",
       "product_manufacturer": "Bass Virtuoso",
       "product_price": 639.99,
-      "product_img_url": "../assets/guitar/b3.png",
+      "product_img_url": "assets/guitar/b3.png",
       "category": "Bass Guitar",
       "product_description": "A bass guitar designed for powerful sound with a steel finish that ensures durability and a striking appearance."
     },
@@ -156,7 +156,7 @@
       "product_name": "Ruby Spark Electric Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 879.99,
-      "product_img_url": "../assets/guitar/e25.jpg",
+      "product_img_url": "assets/guitar/e25.jpg",
       "category": "Electric Guitar"
     },
     {
@@ -164,7 +164,7 @@
       "product_name": "Vintage Sunset Acoustic Guitar",
       "product_manufacturer": "Melody Craft",
       "product_price": 549.99,
-      "product_img_url": "../assets/guitar/a3.jpg",
+      "product_img_url": "assets/guitar/a3.jpg",
       "category": "Acoustic Guitar",
       "product_description": "Features a ruby spark finish and offers a blazing tone, ideal for high-energy performances."
     },
@@ -174,7 +174,7 @@
       "product_name": "Silver Streak Electric Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 919.99,
-      "product_img_url": "../assets/guitar/e15.png",
+      "product_img_url": "assets/guitar/e15.png",
       "category": "Electric Guitar",
       "product_description": "An acoustic guitar with a vintage sunset finish and classic tonal qualities, perfect for folk and country music."
     },
@@ -183,7 +183,7 @@
       "product_name": "Thunder Bass Guitar",
       "product_manufacturer": "Bass Virtuoso",
       "product_price": 659.99,
-     "product_img_url": "../assets/guitar/b4.png",
+     "product_img_url": "assets/guitar/b4.png",
       "category": "Bass Guitar",
       "product_description": "Designed with a sleek silver streak finish, this guitar offers crisp, dynamic tones and excellent playability."
     },
@@ -192,7 +192,7 @@
       "product_name": "Emerald Shine Electric Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 899.99,
-      "product_img_url": "../assets/guitar/e16.png",
+      "product_img_url": "assets/guitar/e16.png",
       "category": "Electric Guitar",
       "product_description": "A bass guitar with thunderous low-end and powerful output, ideal for rock and heavy genres."
     },
@@ -201,7 +201,7 @@
       "product_name": "Cedar Serenade Classical Guitar",
       "product_manufacturer": "Cadence Strings",
       "product_price": 699.99,
-      "product_img_url": "../assets/guitar/classic.jpg",
+      "product_img_url": "assets/guitar/classic.jpg",
       "category": "Classical Guitar",
       "product_description": "Features an emerald shine finish with a bright, engaging sound, perfect for versatile performances."
     },
@@ -210,7 +210,7 @@
       "product_name": "Midnight Thunder Bass Guitar",
       "product_manufacturer": "Bass Virtuoso",
       "product_price": 599.99,
-      "product_img_url": "../assets/guitar/b1.png",
+      "product_img_url": "assets/guitar/b1.png",
       "category": "Bass Guitar",
       "product_description": "A classical guitar with a cedar top and serene sound, ideal for classical music and intricate fingerstyle playing."
     },
@@ -219,7 +219,7 @@
       "product_name": "Rosewood Echo Flamenco Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 999.99,
-      "product_img_url": "../assets/guitar/classic2.jpg",
+      "product_img_url": "assets/guitar/classic2.jpg",
       "category": "Classical Guitar",
       "product_description": "Features a golden horizon finish and produces a resonant, balanced tone suitable for various genres."
     },
@@ -228,7 +228,7 @@
       "product_name": "Autumn Breeze Acoustic Guitar",
       "product_manufacturer": "Nature Sound",
       "product_price": 579.99,
-      "product_img_url": "../assets/guitar/a4.png",
+      "product_img_url": "assets/guitar/a4.png",
       "category": "Acoustic Guitar",
       "product_description": "A premium electric guitar with a royal gold finish, offering high-end sound quality and craftsmanship."
     },
@@ -238,7 +238,7 @@
       "product_name": "Nebula Burst Electric Guitar",
       "product_manufacturer": "Galactic Sounds",
       "product_price": 899.99,
-      "product_img_url": "../assets/guitar/e18.png",
+      "product_img_url": "assets/guitar/e18.png",
       "category": "Electric Guitar",
       "product_description": "A top-of-the-line bass guitar with exceptional tone control and a sophisticated design."
     },
@@ -247,7 +247,7 @@
       "product_name": "Wave Bass Guitar",
       "product_manufacturer": "Bass Virtuoso",
       "product_price": 679.99,
-      "product_img_url": "../assets/guitar/b5.png",
+      "product_img_url": "assets/guitar/b5.png",
       "category": "Bass Guitar",
       "product_description": "Features a silver star design with a crisp, clean sound and excellent playability for all styles of music."
     },
@@ -256,7 +256,7 @@
       "product_name": "Crystal Glow Electric Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 919.99,
-      "product_img_url": "../assets/guitar/e5.png",
+      "product_img_url": "assets/guitar/e5.png",
       "category": "Electric Guitar"
     },
     {
@@ -264,7 +264,7 @@
       "product_name": "Orchid Bloom Acoustic Guitar",
       "product_manufacturer": "Melody Craft",
       "product_price": 599.99,
-      "product_img_url": "../assets/guitar/a5.png",
+      "product_img_url": "assets/guitar/a5.png",
       "category": "Acoustic Guitar"
     },
     {
@@ -272,7 +272,7 @@
       "product_name": "Electric Vortex Electric Guitar",
       "product_manufacturer": "Storm Bringer",
       "product_price": 909.99,
-      "product_img_url": "../assets/guitar/e19.png",
+      "product_img_url": "assets/guitar/e19.png",
       "category": "Electric Guitar"
     },
     {
@@ -280,7 +280,7 @@
       "product_name": "Crimson Blaze Electric Guitar",
       "product_manufacturer": "Inferno Guitars",
       "product_price": 929.99,
-      "product_img_url": "../assets/guitar/e20.png",
+      "product_img_url": "assets/guitar/e20.png",
       "category": "Electric Guitar"
     },
     {
@@ -288,7 +288,7 @@
       "product_name": "Rhythm Bass Guitar",
       "product_manufacturer": "Bass Virtuoso",
       "product_price": 699.99,
-      "product_img_url": "../assets/guitar/b6.jpg",
+      "product_img_url": "assets/guitar/b6.jpg",
       "category": "Bass Guitar"
     },
     {
@@ -296,7 +296,7 @@
       "product_name": "Stormcaster Electric Guitar",
       "product_manufacturer": "Thunderstruck Instruments",
       "product_price": 799.99,
-      "product_img_url": "../assets/guitar/e6.png",
+      "product_img_url": "assets/guitar/e6.png",
       "category": "Electric Guitar"
     },
     {
@@ -304,7 +304,7 @@
       "product_name": "Radiant Sunburst Electric Guitar",
       "product_manufacturer": "Solar Guitars",
       "product_price": 849.99,
-      "product_img_url": "../assets/guitar/e7.png",
+      "product_img_url": "assets/guitar/e7.png",
       "category": "Electric Guitar"
     },
     {
@@ -312,7 +312,7 @@
       "product_name": "Shadow Hunter Electric Guitar",
       "product_manufacturer": "Midnight Sounds",
       "product_price": 889.99,
-      "product_img_url": "../assets/guitar/e8.png",
+      "product_img_url": "assets/guitar/e8.png",
       "category": "Electric Guitar"
     },
     {
@@ -320,7 +320,7 @@
       "product_name": "Silver Streak Electric Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 919.99,
-      "product_img_url": "../assets/guitar/e9.png",
+      "product_img_url": "assets/guitar/e9.png",
       "category": "Electric Guitar"
     },
     {
@@ -328,7 +328,7 @@
       "product_name": "Mystic Forest Electric Guitar",
       "product_manufacturer": "Enchanted Strings",
       "product_price": 879.99,
-      "product_img_url": "../assets/guitar/e.png",
+      "product_img_url": "assets/guitar/e.png",
       "category": "Electric Guitar"
     },
     {
@@ -336,7 +336,7 @@
       "product_name": "Lunar Eclipse Electric Guitar",
       "product_manufacturer": "Celestial Strings",
       "product_price": 949.99,
-      "product_img_url": "../assets/guitar/e21.png",
+      "product_img_url": "assets/guitar/e21.png",
       "category": "Electric Guitar"
     },
     {
@@ -344,7 +344,7 @@
       "product_name": "Phantom Shredder Electric Guitar",
       "product_manufacturer": "Ghost Note",
       "product_price": 959.99,
-      "product_img_url": "../assets/guitar/e22.png",
+      "product_img_url": "assets/guitar/e22.png",
       "category": "Electric Guitar"
     },
     {
@@ -352,7 +352,7 @@
       "product_name": "Twilight Spark Electric Guitar",
       "product_manufacturer": "Dusk Sounds",
       "product_price": 969.99,
-      "product_img_url": "../assets/guitar/e23.png",
+      "product_img_url": "assets/guitar/e23.png",
       "category": "Electric Guitar"
     },
     {
@@ -360,7 +360,7 @@
       "product_name": "Stradivarius Replica Violin",
       "product_manufacturer": "Classic Strings",
       "product_price": 1299.99,
-      "product_img_url": "../assets/others/violen.png",
+      "product_img_url": "assets/others/violen.png",
       "category": "Violin"
     },
     
@@ -369,7 +369,7 @@
       "product_name": "Ebony Violin",
       "product_manufacturer": "Harmony Strings",
       "product_price": 1099.99,
-      "product_img_url": "../assets/others/violin3.jpg",
+      "product_img_url": "assets/others/violin3.jpg",
       "category": "Violin"
     },
     {
@@ -377,7 +377,7 @@
       "product_name": "Golden Voice Violin",
       "product_manufacturer": "Virtuoso Instruments",
       "product_price": 1199.99,
-      "product_img_url": "../assets/others/violin2.png",
+      "product_img_url": "assets/others/violin2.png",
       "category": "Violin"
     },
     
@@ -388,7 +388,7 @@
       "product_name": "Golden Bugle",
       "product_manufacturer": "Brass Tunes",
       "product_price": 399.99,
-      "product_img_url": "../assets/others/bugle.png",
+      "product_img_url": "assets/others/bugle.png",
       "category": "Bugle"
     },
    
@@ -398,7 +398,7 @@
       "product_name": "Tenor Saxophone",
       "product_manufacturer": "Jazz Sounds",
       "product_price": 1199.99,
-      "product_img_url": "../assets/others/saxophone2.png",
+      "product_img_url": "assets/others/saxophone2.png",
       "category": "Saxophone",
       "product_description": "A complete drum set with a bright star finish, providing excellent sound quality and durability for any drummer."
     },
@@ -408,7 +408,7 @@
       "product_name": "Concert Flute",
       "product_manufacturer": "Melody Winds",
       "product_price": 799.99,
-      "product_img_url": "../assets/others/flute.jpg",
+      "product_img_url": "assets/others/flute.jpg",
       "category": "Flute"
     },
     
@@ -418,7 +418,7 @@
       "product_name": "Rock Drum",
       "product_manufacturer": "Thunder Beats",
       "product_price": 180.99,
-      "product_img_url": "../assets/others/drum2.jpg",
+      "product_img_url": "assets/others/drum2.jpg",
       "category": "Drum"
     },
     {
@@ -426,7 +426,7 @@
       "product_name": "Fusion Drum",
       "product_manufacturer": "Rhythm Masters",
       "product_price": 159.99,
-      "product_img_url": "../assets/others/drum3.png",
+      "product_img_url": "assets/others/drum3.png",
       "category": "Drum"
     },
     {
@@ -434,7 +434,7 @@
       "product_name": "Classic Drum",
       "product_manufacturer": "Beat Makers",
       "product_price": 199.99,
-      "product_img_url": "../assets/others/drum4.jpg",
+      "product_img_url": "assets/others/drum4.jpg",
       "category": "Drum"
     },
     {
@@ -442,7 +442,7 @@
       "product_name": "Silver Trumpet",
       "product_manufacturer": "Brass Tunes",
       "product_price": 499.99,
-      "product_img_url": "../assets/others/trumpet2.png",
+      "product_img_url": "assets/others/trumpet2.png",
       "category": "Trumpet",
       "product_description": "Features a gold crown finish and delivers a bright, resonant sound, perfect for both solo and ensemble performances."
     },
@@ -451,7 +451,7 @@
       "product_name": "Pearl Accordion",
       "product_manufacturer": "Accordion Masters",
       "product_price": 1499.99,
-      "product_img_url": "../assets/others/accordion.jpg",
+      "product_img_url": "assets/others/accordion.jpg",
       "category": "Accordion"
     },
     {
@@ -459,7 +459,7 @@
       "product_name": "Golden Flute",
       "product_manufacturer": "Wind Masters",
       "product_price": 899.99,
-      "product_img_url": "../assets/others/flute2.jpg",
+      "product_img_url": "assets/others/flute2.jpg",
       "category": "Flute"
     }
     
