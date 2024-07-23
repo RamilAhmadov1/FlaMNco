@@ -20,7 +20,7 @@
       "product_name": "Gleaming Burst Electric Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 799.99,
-      "product_img_url": "../docs/assets/guitar/e17.png",
+      "product_img_url": "..docs/assets/guitar/e17.png",
       "category": "Electric Guitar",
       "product_description": "A stunning electric guitar with a unique burst finish and powerful sound. Perfect for both live performances and studio recordings."
     },
