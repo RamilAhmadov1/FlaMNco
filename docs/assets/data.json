@@ -20,7 +20,7 @@
       "product_name": "Gleaming Burst Electric Guitar",
       "product_manufacturer": "Harmony Forge Guitars",
       "product_price": 799.99,
-      "product_img_url": "docs/assets/guitar/e17.png",
+      "product_img_url": "assets/guitar/e17.png",
       "category": "Electric Guitar",
       "product_description": "A stunning electric guitar with a unique burst finish and powerful sound. Perfect for both live performances and studio recordings."
     },
@@ -29,7 +29,7 @@
       "product_name": "Radiant Sunburst Electric Guitar",
       "product_manufacturer": "Solar Guitars",
       "product_price": 849.99,
-      "product_img_url": "docs/assets/guitar/e12.png",
+      "product_img_url": "assets/guitar/e12.png",
       "category": "Electric Guitar",
       "product_description": "Features a radiant sunburst finish and versatile tonal range, ideal for a variety of music genres."
     },
@@ -38,7 +38,7 @@
       "product_name": "Mystic Forest Electric Guitar",
       "product_manufacturer": "Enchanted Strings",
       "product_price": 879.99,
-      "product_img_url": "docs/assets/guitar/e10.png",
+      "product_img_url": "assets/guitar/e10.png",
       "category": "Electric Guitar",
       "product_description": "An electric guitar with a mystical forest finish, providing a rich and immersive sound experience."
     },
@@ -50,7 +50,7 @@
       "product_name": "Shadow Hunter Electric Guitar",
       "product_manufacturer": "Midnight Sounds",
       "product_price": 889.99,
-      "product_img_url": "../assets/guitar/e14.jpg",
+      "product_img_url": "assets/guitar/e14.jpg",
       "category": "Electric Guitar",
       "product_description": "Dark and sleek, this guitar is designed for powerful, high-gain tones and dynamic play."
     },
@@ -62,7 +62,7 @@
       "product_name": "Sunset Violin",
       "product_manufacturer": "Melody Makers",
       "product_price": 899.99,
-     "product_img_url": "../assets/others/violen4.jpg",
+     "product_img_url": "assets/others/violen4.jpg",
       "category": "Violin",
       "product_description": "Features a beautiful sunset finish and a rich, warm tone, suitable for both classical and contemporary music."
     }, 
