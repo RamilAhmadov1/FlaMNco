@@ -45,7 +45,7 @@ img {
 
 .categories-menu>div {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 15px;
 }
 
@@ -89,7 +89,7 @@ img {
 }
 
 /* Media Queries for Mid-sized Screens */
-@media (min-width: 500px) {
+@media (min-width: 500px) and (max-width: 767px) {
     .search input {
         width: calc(100% - 100px);
         font-size: 15px;
@@ -103,7 +103,7 @@ img {
     }
 
     .categories-menu>div {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 
     h1 {
@@ -111,4 +111,9 @@ img {
         text-align: center;
         margin-bottom: 20px;
     }
+}
+
+/* Media Queries for Larger Screens */
+@media (min-width: 768px) {
+    /* No changes for PC layout */
 }
