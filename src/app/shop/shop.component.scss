@@ -57,55 +57,71 @@ img {
 }
 
 /* Media Queries for Smaller Screens */
-
-//re
 @media (max-width: 767px) {
+    .search {
+        padding: 0 10px;
+        /* Reduce padding for smaller screens */
+    }
+
     .search input {
-        width: calc(100% - 70px);
+        width: calc(100% - 60px);
+        /* Adjust width to fit better */
         font-size: 14px;
-        height: 35px;
+        height: 36px;
+        /* Adjust height for better fit */
     }
 
     .search button {
-        min-width: 70px;
-        font-size: 13px;
-        height: 35px;
+        min-width: 60px;
+        font-size: 14px;
+        /* Adjust font size */
+        height: 36px;
+        /* Adjust height for better fit */
     }
 
     .categories-menu>div {
         grid-template-columns: repeat(2, 1fr);
+        /* Two columns for better fit */
     }
 
     .categories-menu button {
         max-width: 100%;
-        min-height: 40px;
+        /* Full width for buttons */
+        min-height: 36px;
+        /* Adjust height */
         font-size: 14px;
-        padding: 8px 12px;
+        /* Adjust font size */
+        padding: 8px 10px;
+        /* Adjust padding for fit */
     }
 
     h1 {
-        font-size: 18px;
+        font-size: 20px;
+        /* Increase font size for readability */
         text-align: center;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
+        /* Add margin for spacing */
     }
 }
 
 /* Media Queries for Mid-sized Screens */
 @media (min-width: 500px) and (max-width: 767px) {
     .search input {
-        width: calc(100% - 100px);
+        width: calc(100% - 90px);
+        /* Adjust width for mid-sized screens */
         font-size: 15px;
         height: 40px;
     }
 
     .search button {
-        min-width: 100px;
+        min-width: 90px;
         font-size: 14px;
         height: 40px;
     }
 
     .categories-menu>div {
         grid-template-columns: repeat(3, 1fr);
+        /* Three columns for better fit */
     }
 
     h1 {
