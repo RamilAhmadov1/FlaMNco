@@ -1,14 +1,13 @@
-/* RESET */
 html {
     box-sizing: border-box;
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
+    font-family: Open Sans, sans-serif
 }
 
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+    box-sizing: inherit
 }
 
 body,
@@ -23,21 +22,21 @@ ol,
 ul {
     margin: 0;
     padding: 0;
-    font-weight: normal;
+    font-weight: 400
 }
 
 ol,
 ul {
-    list-style: none;
+    list-style: none
 }
 
 img {
     max-width: 100%;
-    height: auto;
+    height: auto
 }
 
 :root {
-    --gap-xxs: 0.5rem;
+    --gap-xxs: .5rem;
     --gap-xs: 1rem;
     --gap-sm: 2rem;
     --gap-md: 4rem;
@@ -49,10 +48,10 @@ img {
     --color-text-highlight: red;
     --border-radius-sm: 5px;
     --border-radius: 10px;
-    --border-hover: 1px solid rgba(0, 0, 0, 0.1);
-    --bg-hover: rgba(0, 0, 0, 0.1);
-    --font-size-sm: 0.85rem;
-    --font-size-lg: 1.15rem;
+    --border-hover: 1px solid rgba(0, 0, 0, .1);
+    --bg-hover: rgba(0, 0, 0, .1);
+    --font-size-sm: .85rem;
+    --font-size-lg: 1.15rem
 }
 
 h1,
@@ -66,25 +65,24 @@ a,
 button,
 label {
     color: var(--color-text-dark-gray);
-    text-decoration: none;
+    text-decoration: none
 }
 
 button {
-    border: none;
+    border: none
 }
 
-/* LAYOUT */
 .grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     column-gap: var(--gap-xs);
-    row-gap: var(--gap-md);
+    row-gap: var(--gap-md)
 }
 
 .grid-cols-2 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    row-gap: var(--gap-xxs);
+    row-gap: var(--gap-xxs)
 }
 
 .grid .item {
@@ -94,334 +92,187 @@ button {
     align-items: center;
     text-align: center;
     padding: var(--gap-sm) var(--gap-xs);
-    border-radius: 10px;
+    border-radius: 10px
 }
 
 .flex {
-    display: flex;
+    display: flex
 }
 
 .justify-center {
-    justify-content: center;
+    justify-content: center
 }
 
 .justify-between {
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .justify-around {
-    justify-content: space-around;
+    justify-content: space-around
 }
 
 .align-center {
-    align-items: center;
+    align-items: center
 }
 
 .direction-column {
-    flex-direction: column;
+    flex-direction: column
 }
 
 .text-center {
-    text-align: center;
+    text-align: center
 }
 
-/* SPACING */
-/* margins */
 .mt-xxs {
-    margin-top: var(--gap-xxs);
+    margin-top: var(--gap-xxs)
 }
 
 .mt-xs {
-    margin-top: var(--gap-xs);
+    margin-top: var(--gap-xs)
 }
 
 .mt-sm {
-    margin-top: var(--gap-sm);
+    margin-top: var(--gap-sm)
 }
 
 .mt-md {
-    margin-top: var(--gap-md);
+    margin-top: var(--gap-md)
 }
 
 .mx-md {
     margin-left: var(--gap-md);
-    margin-right: var(--gap-md);
+    margin-right: var(--gap-md)
 }
 
 .mx-xxs {
     margin-left: var(--gap-xxs);
-    margin-right: var(--gap-xxs);
+    margin-right: var(--gap-xxs)
 }
 
 .mx-xs {
     margin-left: var(--gap-xs);
-    margin-right: var(--gap-xs);
+    margin-right: var(--gap-xs)
 }
 
 .my-xs {
     margin-top: var(--gap-xs);
-    margin-bottom: var(--gap-xs);
+    margin-bottom: var(--gap-xs)
 }
 
-/* padding */
 .px-xs {
     padding-left: var(--gap-xs);
-    padding-right: var(--gap-xs);
+    padding-right: var(--gap-xs)
 }
 
 .py-xxs {
     padding-top: var(--gap-xxs);
-    padding-bottom: var(--gap-xxs);
+    padding-bottom: var(--gap-xxs)
 }
 
-/* FONT */
 .font-light {
-    font-weight: lighter;
+    font-weight: lighter
 }
 
 .font-bold {
-    font-weight: bold;
+    font-weight: 700
 }
 
-/* COLOR */
 .bg-white {
-    background-color: var(--color-white);
+    background-color: var(--color-white)
 }
 
 .bg-primary {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary)
 }
 
 .text-highlight {
-    color: var(--color-text-highlight);
+    color: var(--color-text-highlight)
 }
 
 .text-white {
-    color: var(--color-white);
+    color: var(--color-white)
 }
 
-/* SIZING */
 .text-sm {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-sm)
 }
 
 .text-lg {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-lg)
 }
 
-/* BORDER */
 .border {
-    border: 0.5px solid var(--color-gray);
+    border: .5px solid var(--color-gray)
 }
 
 .rounded {
-    border-radius: var(--border-radius);
+    border-radius: var(--border-radius)
 }
 
-/* STATE */
 .clickable:not(a):hover {
-    cursor: pointer;
+    cursor: pointer
 }
 
 .border-hover:hover {
-    border: var(--border-hover);
+    border: var(--border-hover)
 }
 
 .bg-hover:hover {
-    background-color: var(--bg-hover);
+    background-color: var(--bg-hover)
 }
 
 .text-dark-hover:hover {
-    color: var(--color-text-dark-gray);
+    color: var(--color-text-dark-gray)
 }
 
 a:hover {
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 button.active {
-    background-color: var(--color-light-gray);
+    background-color: var(--color-light-gray)
 }
-
-/* COMPONENTS */
 
 button.large {
     height: 40px;
-    width: 120px;
+    width: 120px
 }
 
 button.small {
     height: 30px;
-    width: 90px;
+    width: 90px
 }
 
 input {
     height: 30px;
     padding-left: var(--gap-xxs);
-    padding-right: var(--gap-xxs);
+    padding-right: var(--gap-xxs)
 }
 
-input[type="checkbox"] {
+input[type=checkbox] {
     height: 20px;
-    width: 20px;
+    width: 20px
 }
 
-/* MEDIA QUERIES FOR RESPONSIVENESS */
 @media (min-width: 500px) {
     .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .grid-cols-2 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .search input {
-        width: calc(100% - 100px);
-    }
-
-    .categories-menu>div {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(2, 1fr)
     }
 }
 
 @media (min-width: 680px) {
     .grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr)
     }
 
     .grid-cols-2 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr)
     }
 }
 
 @media (min-width: 800px) {
     .grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr)
     }
-}
-
-/* SMALLER SCREENS */
-@media (max-width: 1200px) {
-    .grid .item {
-        padding: var(--gap-xs);
-    }
-}
-
-@media (max-width: 1024px) {
-    .grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 800px) {
-    .grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .search input {
-        width: calc(100% - 70px);
-        height: 35px;
-    }
-
-    .search button {
-        min-width: 70px;
-        height: 35px;
-    }
-
-    .categories-menu>div {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .categories-menu button {
-        max-width: 100%;
-        min-height: 40px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    .search input {
-        height: 30px;
-    }
-
-    .search button {
-        min-width: 60px;
-        height: 30px;
-    }
-
-    .categories-menu>div {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .categories-menu button {
-        max-width: 100%;
-        min-height: 35px;
-        font-size: 12px;
-    }
-}
-
-/* SPECIFIC COMPONENT STYLING */
-img {
-    max-width: 100%;
-    max-height: 180px;
-    object-fit: cover;
-}
-
-.search {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-
-.search input {
-    width: calc(100% - 100px);
-    border-top-left-radius: var(--border-radius);
-    border-bottom-left-radius: var(--border-radius);
-    border: var(--border-hover);
-    height: 40px;
-}
-
-.search button {
-    border-top-right-radius: var(--border-radius);
-    border-bottom-right-radius: var(--border-radius);
-    min-width: 120px;
-    height: 40px;
-    padding: 10px 10px;
-    font-size: 15px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.categories-menu {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 20px;
-    padding: 0 15px;
-    box-sizing: border-box;
-}
-
-.categories-menu>div {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 15px;
-}
-
-.categories-menu button {
-    max-width: 200px;
-    min-height: 30px;
-    padding: 10px 15px;
-    font-size: 16px;
 }
